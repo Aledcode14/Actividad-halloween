@@ -51,6 +51,7 @@ function options(){
   parche1.size(80,80);
   textSize(22);
   fill("white");
+  noStroke();
   text("Selecciona una figura para decorar:",windowWidth/4,windowHeight/7);
   button1 = createImg("b-calabaza.png");
   button1.position(windowWidth/2-200, windowHeight/3+20);
