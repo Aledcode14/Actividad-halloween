@@ -33,8 +33,8 @@ function draw() {
   }
   
   
-  if (distance <=30) {    
-    strokeWeight(8);
+  if (distance <=50) {    
+    strokeWeight(10);
     line(thumbTip.x,thumbTip.y,thumbTip.x,thumbTip.y);
   } 
   
