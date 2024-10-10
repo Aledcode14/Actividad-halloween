@@ -15,7 +15,7 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   editor();
   options();
-  frameRate(80);
+  frameRate(100);
 }
 
 function draw() {
@@ -34,7 +34,7 @@ function draw() {
   
   
   if (distance <=50) {    
-    strokeWeight(10);
+    strokeWeight(12);
     line(thumbTip.x,thumbTip.y,thumbTip.x,thumbTip.y);
   } 
   
