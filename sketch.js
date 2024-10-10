@@ -15,7 +15,7 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   editor();
   options();
-  
+  frameRate(80);
 }
 
 function draw() {
