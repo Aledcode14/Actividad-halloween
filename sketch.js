@@ -140,6 +140,6 @@ function picture(){
 function instrucciones(){
   inst = createImg("instrucciones.png");
   inst.position(windowWidth/7+15, windowHeight/10);
-  inst.size(windowWidth/2+120,windowHeight-40);
+  inst.size(400,400);
   inst.mousePressed(function(){inst.remove()});
 }
